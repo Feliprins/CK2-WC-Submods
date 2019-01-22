@@ -1,0 +1,487 @@
+thoradin = {
+	diplomacy = 2
+	martial = 3
+	combat_rating = 5
+	
+	monthly_character_prestige = 0.2
+	
+	high_elf_group_opinion = 10
+	human_group_opinion = 10
+
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_lion
+	flags = { historical_bloodline bloodline_heroes }
+}
+cenarius = {
+	learning = 2
+	martial = 3
+	combat_rating = 10
+	
+	monthly_character_prestige = 0.2
+	monthly_character_piety = 1
+
+	druidism_group_opinion = 15
+	loa_group_opinion = 5
+
+	inheritance = patrilineal
+	allow_bastards = no
+	picture = GFX_bloodlines_symbol_romuva_tree
+	flags = { historical_bloodline bloodline_heroes }
+}
+deathwing = {
+	martial = 5
+	combat_rating = 15
+	
+	monthly_character_prestige = 0.5
+	
+	void_group_opinion = 20
+	druidism_group_opinion = -15
+	dragon_religion_group_opinion = -10
+
+	inheritance = patrilineal
+	allow_bastards = no
+	picture = GFX_bloodlines_symbol_bloodthirsty
+	flags = { historical_bloodline bloodline_heroes }
+}
+wrynn = {
+	martial = 1
+	stewardship = 1
+	monthly_character_prestige = 0.15
+	
+	levy_reinforce_rate = 0.05
+	azerothian_opinion = 5
+
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_lion
+	flags = { historical_bloodline bloodline_heroes }	
+}
+sunstrider = {
+	learning = 1
+	diplomacy = 1
+	stewardship = 1
+	combat_rating = 5
+	monthly_character_prestige = 0.3
+	
+	high_elf_group_opinion = 10
+	kaldorei_group_opinion = -5
+	amani_opinion = -10
+	
+
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_zun_sun
+	flags = { historical_bloodline bloodline_heroes }	
+}
+proudmoore = {
+	martial = 1
+	diplomacy = 1
+	monthly_character_prestige = 0.1
+	
+	tirassian_opinion = 5
+
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_buddhist
+	flags = { historical_bloodline bloodline_heroes }	
+}
+aliancefounder = { #Whoever forms the alliance
+	diplomacy = 2
+	monthly_character_prestige = 0.3
+	
+	human_group_opinion = 5
+	vassal_opinion = 5
+
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_fleur_de_lis_gold
+	flags = { historical_bloodline bloodline_heroes }
+}
+trollbane = {
+	martial = 2
+	combat_rating = 5
+	monthly_character_prestige = 0.15
+	
+	arathorian_opinion = 5
+	amani_opinion = -10
+
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_war
+	flags = { historical_bloodline bloodline_heroes }
+}
+durotan = {
+	diplomacy = 2
+	monthly_character_prestige = 0.15
+	
+	shamanism_group_opinion = 5
+	druidism_group_opinion = 5
+	loa_group_opinion = 5
+	
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_norse_wolf
+	flags = { historical_bloodline bloodline_heroes }
+}
+whisperwind = {
+	martial = 1
+	learning = 2
+	monthly_character_prestige = 0.15
+	monthly_character_piety = 0.5
+	combat_rating = 5
+	
+	druidism_group_opinion = 5
+	night_elf_opinion = 5
+	
+	inheritance = matrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_murder
+	flags = { historical_bloodline bloodline_heroes }
+}
+ysera = {
+	stewardship = 2
+	learning = 2
+	diplomacy = 1
+	combat_rating = 10
+	monthly_character_prestige = 0.5
+	monthly_character_piety = 1
+	
+	druidism_group_opinion = 10
+	
+	inheritance = matrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_murder_rose
+	flags = { historical_bloodline bloodline_heroes }
+}
+alextrasza = {
+	learning = 2
+	diplomacy = 3
+	monthly_character_prestige = 0.5
+	monthly_character_piety = 1
+	combat_rating = 10
+	
+	high_elf_group_opinion = 10
+	human_group_opinion = 10
+	
+	inheritance = matrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_munificent
+	flags = { historical_bloodline bloodline_heroes }
+}
+malygos = { 
+	learning = 3
+	martial = 2
+	monthly_character_prestige = 0.5
+	monthly_character_piety = 1
+	combat_rating = 10
+	tech_growth_modifier = 0.1
+	
+	arcane_group_opinion = -10
+	
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_generic_pagan
+	flags = { historical_bloodline bloodline_heroes }
+}
+nozdormu = { 
+	learning = 3
+	stewardship = 2
+	monthly_character_prestige = 0.5
+	monthly_character_piety = 1
+	combat_rating = 10
+	
+	infinite_dragon_opinion = -10
+	
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_midgard
+	flags = { historical_bloodline bloodline_heroes }
+}
+guardian = {
+	martial = 2
+	diplomacy = 1
+	learning = 2
+	health = 1
+	monthly_character_prestige = 1
+	combat_rating = 10
+	
+	dalaranian_opinion = -10
+	general_opinion = 5
+	
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_generic_pagan
+	flags = { historical_bloodline bloodline_heroes }
+}
+guldan = { #Guldan
+	intrigue = 1
+	learning = 1
+	monthly_character_prestige = 0.15
+	plot_power_modifier = 0.1
+	vassal_opinion = -5
+	
+	shamanism_group_opinion = -5
+	fel_group_opinion = 5
+	
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_bloodthirsty
+	flags = { historical_bloodline bloodline_heroes }
+}
+rastakhan = {
+	intrigue = 2
+	learning = 1
+	monthly_character_prestige = 0.2
+	
+	defensive_plot_power_modifier = 0.10
+	loa_group_opinion = 5
+	
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_benevolent
+	flags = { historical_bloodline bloodline_heroes }
+}
+greymane = {
+	stewardship = 2
+	monthly_character_prestige = 0.15
+	
+	gilnean_opinion = 5
+	
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_castellan
+	flags = { historical_bloodline bloodline_heroes }
+}
+blackhand = {
+	martial = 1
+	intrigue = 1
+	monthly_character_prestige = 0.2
+	defensive_plot_power_modifier = -0.1
+	
+	blackrock_opinion = 5
+	shamanism_group_opinion = -5
+	
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_murder_war
+	flags = { historical_bloodline bloodline_heroes }
+}
+windrunner = {
+	martial = 2
+	monthly_character_prestige = 0.2
+	combat_rating = 5
+	
+	high_elf_group_opinion = 5
+	amani_opinion = -10
+	
+	inheritance = matrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_slavic_arrow
+	flags = { historical_bloodline bloodline_heroes }
+}
+ymiron = {
+	martial = 1
+	monthly_character_prestige = 0.3
+	combat_rating = 8
+	
+	vrykul_opinion = 5
+	furbog_opinion = -10
+	human_group_opinion = -10
+	
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_longship
+	flags = { historical_bloodline bloodline_heroes }
+}
+doomhammr = {
+	martial = 2
+	monthly_character_prestige = 0.3
+	combat_rating = 8
+
+	shamanism_group_opinion = 5
+	
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_war
+	flags = { historical_bloodline bloodline_heroes }
+}
+hellscream = {
+	martial = 2
+	monthly_character_prestige = 0.15
+	combat_rating = 5
+	command_modifier = {
+	damage = 0.075
+	defence = -0.075
+	}
+	
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_norse_wolf
+	flags = { historical_bloodline bloodline_heroes }
+}
+illidan = {
+	learning = 1
+	intrigue = 2
+	martial = 1
+	monthly_character_prestige = 0.2
+	combat_rating = 10
+	plot_power_modifier = 0.10
+	
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_generic_pagan
+	flags = { historical_bloodline bloodline_heroes }
+}
+malfurion = {
+	learning = 2
+	stewardship = 1
+	martial = 1
+	monthly_character_prestige = 0.2
+	monthly_character_piety = 0.5
+	combat_rating = 10
+	
+	druidism_group_opinion = 5
+	
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_romuva_tree
+	flags = { historical_bloodline bloodline_heroes }
+}
+ashbringr = {
+	martial = 2
+	monthly_character_prestige = 0.3
+	monthly_character_piety = 0.5
+	combat_rating = 10
+	
+	light_group_opinion = 5
+	
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_bon_candle
+	flags = { historical_bloodline bloodline_heroes }
+}
+scourgebane = { #Whoever destroys the Scourge
+	martial = 2
+	diplomacy = 1
+	monthly_character_prestige = 0.4
+	monthly_character_piety = 1
+	combat_rating = 10
+	command_modifier = {
+		religious_enemy = 0.2
+	}	
+	general_opinion = 10
+	
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_war_knight
+	flags = { historical_bloodline bloodline_heroes }
+}
+menethil = {
+	diplomacy = 2
+	monthly_character_prestige = 0.15
+	
+	lordaeronian_opinion = 10
+	
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_temp_symbol
+	flags = { historical_bloodline bloodline_heroes }
+}	
+ursocc = {
+	martial = 4
+	learning = 1
+	combat_rating = 10
+	monthly_character_prestige = 0.4
+	monthly_character_piety = 1
+	
+	druidism_group_opinion = 10
+	loa_group_opinion = 5
+	furbolg_group_opinion = 5
+	
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_finnish_bearpaw
+	flags = { historical_bloodline bloodline_heroes }
+}	
+ursol = {
+	martial = 2
+	learning = 3
+	combat_rating = 10
+	monthly_character_prestige = 0.4
+	monthly_character_piety = 1
+	
+	druidism_group_opinion = 10
+	loa_group_opinion = 5
+	furbolg_group_opinion = 5
+	
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_finnish_bearpaw
+	flags = { historical_bloodline bloodline_heroes }
+}	
+aviana = {
+	martial = 3
+	intrigue = 1
+	learning = 1
+	combat_rating = 10
+	monthly_character_prestige = 0.4
+	monthly_character_piety = 1
+	
+	druidism_group_opinion = 10
+	loa_group_opinion = 5
+	harpy_group_opinion = 5
+	
+	inheritance = matrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_norse
+	flags = { historical_bloodline bloodline_heroes }
+}	
+bronzebeards = {
+	stewardship = 2
+	monthly_character_prestige = 0.15
+	
+	bronzebeard_opinion = 10
+	dark_iron_opinion = -5
+	
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_builder
+	flags = { historical_bloodline bloodline_heroes }
+}	
+wildhammers = {
+	martial = 2
+	monthly_character_prestige = 0.15
+	
+	wildhammer_opinion = 10
+	dark_iron_opinion = -5
+	
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_tengri_eagle
+	flags = { historical_bloodline bloodline_heroes }
+}	
+thaurissans = {
+	learning = 2
+	monthly_character_prestige = 0.15
+	
+	dark_iron_opinion = 10
+	wildhammer_opinion = -5
+	bronzebeard_opinion = -5
+	
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_symbol_ruthless
+	flags = { historical_bloodline bloodline_heroes }
+}	
+anvilmar = {
+	diplomacy = 2
+	monthly_character_prestige = 0.3
+	
+	dwarf_group_opinion = 10
+	
+	inheritance = patrilineal
+	allow_bastards = yes
+	picture = GFX_bloodlines_temp_symbol_2
+	flags = { historical_bloodline bloodline_heroes }
+}	

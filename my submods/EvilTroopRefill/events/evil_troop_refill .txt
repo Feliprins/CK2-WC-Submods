@@ -1,0 +1,90 @@
+
+namespace = WCFILL
+
+# Troop Refill event
+character_event = {
+	id = WCFILL.0001
+	title = EVTTITLE_WCVOD_1005
+	desc = EVTDESC_WCVOD_1005
+	picture = GFX_evt_ahnqiraj
+	border = GFX_event_narrative_frame_war
+
+	is_triggered_only = yes
+
+	trigger = {
+		has_global_flag = reawakening_of_cthun_flag
+	}
+	immediate = {
+		if = {
+			limit = {
+				e_ahnqiraj = {
+					has_holder = yes
+					holder_scope = {
+						trait = creature_qiraji
+						religion = old_gods_worship
+					}
+				}
+			}
+	# The Qiraji will devour them all!
+	option = {
+		trigger = { true_religion = old_gods_worship }
+		name = EVTOPTA_WCFEL_1005
+
+		if = {
+			limit = { character = ROOT }
+			capital_scope = {
+				show_scope_change = no
+				ROOT = {
+					show_scope_change = no
+					spawn_unit = {
+						owner = ROOT
+						province = PREV
+						home = PREV
+						troops = {
+							insectoidswarm = { 650 650 }
+						}
+						attrition = 0
+						merge = yes
+						maintenance = no
+						reinforces = yes
+					}
+					spawn_unit = {
+						owner = ROOT
+						province = PREV
+						home = PREV
+						troops = {
+							insectoidswarm = { 650 650 }
+						}
+						attrition = 0
+						merge = yes
+						maintenance = no
+						reinforces = yes
+					}
+					spawn_unit = {
+						owner = ROOT
+						province = PREV
+						home = PREV
+						troops = {
+							insectoidguard = { 350 350 }
+						}
+						attrition = 0
+						merge = yes
+						maintenance = no
+						reinforces = yes
+					}
+					spawn_unit = {
+						owner = ROOT
+						province = PREV
+						home = PREV
+						troops = {
+							insectoidguard = { 350 350 }
+						}
+						attrition = 0
+						merge = yes
+						maintenance = no
+						reinforces = yes
+					}
+				}
+			}
+		}
+	}
